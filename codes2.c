@@ -17,7 +17,7 @@ int main(){
         c = ((c + d) % 90)+64;
         printf("%c", c);
     }
-    else if (c == '~'){
+    else if (c == '~'){/*how to end the loop*/
         printf("End Of Program");
         return 0;
     }
